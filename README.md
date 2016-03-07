@@ -3,7 +3,11 @@ A tool to find sql injections by baidu search engine and sqlmapapi
 
 ###Usage:
 
-####0x00、change the current the directory to sqlmap's directory,run the commod in console<br>
+####0x00、the script depends on the `requests` python library,so if you haven't install it.you should run the command firstly
+```Bash
+pip install requests 
+```
+####change the current the directory to sqlmap's directory,run the commod in console
 ```Bash
 python sqlmapapi.py -s -H localhost
 ```
@@ -19,7 +23,11 @@ if you want to check,enter `Y` or enter `N` not to check vulns
 
 ###使用方法:
 
-####0x00、切换到sqlmap的目录下，在终端运行下面的命令<br>
+####0x00、脚本依赖一个叫做`requests`的Python库，如果你还没安装，你得先运行下面命令
+```Bash
+pip install requests 
+```
+####切换到sqlmap的目录下，在终端运行下面的命令<br>
 ```Bash
 python sqlmapapi.py -s -H localhost
 ```
