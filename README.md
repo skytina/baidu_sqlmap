@@ -35,7 +35,7 @@ pip install requests
 python sqlmapapi.py -s -H localhost
 ```
 ### sqlmapapi.py 会监听本地localhost的8775端口，同时接受来自客户端的请求去开启一个任务<br>
-### x01、使用`Idle`或者其他你喜欢的`Python解释器`来运行spider_baidu.py<br>
+### 0x01、使用`Idle`或者其他你喜欢的`Python解释器`来运行spider_baidu.py<br>
 ### 0x02、输入你想搜索的baidu dork（如:inurl:"show.php?id"）<br>
 ### 0x03、输入你想要使用的线程数<br>
 ### 0x04、输入你想要爬取的百度搜索结果的页数<br>
